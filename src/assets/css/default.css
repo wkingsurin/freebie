@@ -20,7 +20,7 @@ body {
     font-weight: 600;
     color: var(--black);
 }
-.title::after {
+/* .title::after {
     content: '';
     display: block;
 
@@ -29,7 +29,7 @@ body {
     
     margin-top: 7px;
     background: var(--black);
-}
+} */
 
 ::after {
     width: 100%;

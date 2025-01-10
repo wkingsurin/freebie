@@ -44,7 +44,33 @@ export default function App() {
             </div>
           </div>
           <div className="background">
-            <img src="/background.jpg" alt="Worktop" />
+            <img src="/hero/background.jpg" alt="Worktop" />
+          </div>
+        </section>
+        <section className="present present-section">
+          <div className="container">
+            <div className="present-block section-block">
+              <div className="text-block">
+                <div className="ttile-block">
+                  <h2 className='title'>we are</h2>
+                  <p className="subtitle">the sqwd</p>
+                </div>
+                <p className="description">Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit, sed do<br /> eiusmod tempor incididunt.</p>
+              </div>
+              <div className="images">
+                <div className="box">
+                  <div className="item">
+                    <img src="/present/image-1.jpg" alt="Man" />
+                  </div>
+                  <div className="item item_green">
+                  </div>
+                  <div className="item">
+                    <img src="/present/image-2.jpg" alt="Man" />
+                  </div>
+                  <p className="description">Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit, sed do<br /> eiusmod tempor incididunt.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </main>
