@@ -1,1 +1,137 @@
 @import url('../../assets/css/import.css');
+
+.app {
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+.header .container {}
+.header .header-block {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    height: 180px;
+}
+.header .navigation {}
+.header .list {
+    display: flex;
+    gap: 60px;
+}
+.header .list-elem {}
+.header .link {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+    font-size: 14px;
+    letter-spacing: 2px;
+
+    color: var(--white);
+    text-transform: uppercase;
+}
+.header .link::after {
+    content: '';
+
+    display: block;
+    
+    width: 18px;
+    height: 2px;
+    
+    background: var(--green);
+
+    transition: .3s ease-in-out;
+}
+.header .link:hover::after {
+    width: 100%;
+}
+
+.main {
+    position: relative;
+    z-index: 1;
+
+    min-height: calc(100vh - 100px);
+}
+
+.hero {}
+.hero-section {}
+.hero .container {
+    position: relative;
+    z-index: 2;
+
+    min-height: calc(100vh - 100px);
+}
+.hero .hero-block {}
+.hero .section-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    min-height: calc(100vh - 100px);
+
+    color: var(--white);
+}
+.hero .content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    text-align: center;
+}
+.hero .title {
+    font-size: 72px;
+    font-weight: 500;
+    color: inherit;
+
+    letter-spacing: 4.5px;
+}
+.hero .subtitle {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 300;
+
+    opacity: .8;
+    letter-spacing: 1.35px;
+}
+.hero .pagination {
+    position: absolute;
+    bottom: 20px;
+
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+.hero .number.active {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--white);
+    line-height: 49px;
+    letter-spacing: 2.3px;
+    margin-bottom: -3px;
+}
+.hero .number {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--gray-3);
+    letter-spacing: 1.15px;
+}
+
+.hero .background {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+}
+.hero img {
+    width: 100%;
+    height: 100%;
+}
