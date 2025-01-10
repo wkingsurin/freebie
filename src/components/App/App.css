@@ -291,5 +291,118 @@
     z-index: 1;
 }
 
-
 .present img {}
+
+
+/* SERVICES */
+
+.services {
+    padding: 135px;
+    background: var(--light-gray);
+}
+
+.services-section {}
+
+.services .container {}
+
+.services .services-block {
+    display: flex;
+    flex-direction: column;
+
+    gap: 85px;
+}
+
+.services .section-block {
+}
+
+.services .title {
+}
+
+.services .cards {
+    display: flex;
+
+    gap: 25px;
+}
+
+.services .item {
+    position: relative;
+
+    flex: 0 0 33.333%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    padding: 50px 45px 35px;
+    background: var(--white);
+    overflow: hidden;
+}
+.services .item:hover .bottom-line {
+    left: 0;
+    opacity: 1;
+}
+
+.services .title-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services .title-card {
+    font-family: 'Oswald';
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.services .icon-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 0 var(--light-gray-4);
+}
+
+.services img {
+    width: 25px;
+    height: 25px;
+}
+
+.services .text-block {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.services .description {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: var(--gray-4);
+}
+
+.services .button {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--black);
+    letter-spacing: 0.6px;
+    opacity: .5;
+}
+
+.services .bottom-line {
+    position: absolute;
+    left: calc(-100% - 25px);
+    bottom: 0;
+    
+    width: 100%;
+    height: 2px;
+    opacity: 0;
+    background: var(--light-green-2);
+    transition: .3s ease-in-out;
+}

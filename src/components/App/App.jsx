@@ -73,6 +73,54 @@ export default function App() {
             </div>
           </div>
         </section>
+        <section className="services services-section">
+          <div className="container">
+            <div className="services-block section-block">
+              <h2 className="title">Our Services</h2>
+              <div className="cards">
+                <div className="item">
+                  <div className="title-block">
+                    <h3 className="title-card">Branding</h3>
+                    <div className="icon-block">
+                      <img src="/services/icon-1.png" alt="Branding" />
+                    </div>
+                  </div>
+                  <div className="text-block">
+                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <a href="#" className="button">READ MORE</a>
+                  </div>
+                  <div className="bottom-line"></div>
+                </div>
+                <div className="item">
+                  <div className="title-block">
+                    <h3 className="title-card">DESIGN</h3>
+                    <div className="icon-block">
+                      <img src="/services/icon-2.png" alt="Design" />
+                    </div>
+                  </div>
+                  <div className="text-block">
+                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <a href="#" className="button">READ MORE</a>
+                  </div>
+                  <div className="bottom-line"></div>
+                </div>
+                <div className="item">
+                  <div className="title-block">
+                    <h3 className="title-card">DEVELOPMENT</h3>
+                    <div className="icon-block">
+                      <img src="/services/icon-3.png" alt="Development" />
+                    </div>
+                  </div>
+                  <div className="text-block">
+                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <a href="#" className="button">READ MORE</a>
+                  </div>
+                  <div className="bottom-line"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   )

@@ -19,6 +19,7 @@ body {
     font-size: 48px;
     font-weight: 600;
     color: var(--black);
+    letter-spacing: 3px;
 }
 /* .title::after {
     content: '';
@@ -42,11 +43,25 @@ body {
 }
 
 .title-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     font-family: 'Open Sans';
     font-size: 18px;
     font-weight: 300;
     color: var(--black);
 }
+.title-card::after {
+    content: '';
+    display: block;
+
+    width: 45px;
+    height: 2px;
+
+    background: var(--black);
+}
+
 .description-card {
     font-family: 'Open Sans';
     font-size: 13px;
