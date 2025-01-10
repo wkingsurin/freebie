@@ -14,3 +14,42 @@ body {
     padding: 0 15px;
     box-sizing: content-box;
 }
+
+.title {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--black);
+}
+.title::after {
+    content: '';
+    display: block;
+
+    width: 45px;
+    height: 2px;
+    
+    margin-top: 7px;
+    background: var(--black);
+}
+
+::after {
+    width: 100%;
+    height: 2px;
+    color: var(--green);
+}
+
+.title-works {
+    font-weight: 300;
+}
+
+.title-card {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--black);
+}
+.description-card {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 23px;
+}
