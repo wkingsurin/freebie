@@ -71,7 +71,7 @@
 
 .hero-section {
     position: relative;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .hero .container {
@@ -153,6 +153,7 @@
 
     width: 100%;
     height: 100%;
+    height: calc(100% - 50px);
 }
 
 .hero img {
@@ -242,6 +243,8 @@
     justify-content: center;
     margin-left: -33px;
     width: 100%;
+
+    overflow: hidden;
 }
 
 .present .box {

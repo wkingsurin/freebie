@@ -9,19 +9,19 @@ export default function App() {
             <nav className="navigation">
               <ul className="list">
                 <li className="list-elem">
-                  <a href="#" className="link">Works</a>
+                  <a href="#works" className="link">Works</a>
                 </li>
                 <li className="list-elem">
-                  <a href="#" className="link">About</a>
+                  <a href="#about" className="link">About</a>
                 </li>
                 <li className="list-elem">
-                  <a href="#" className="link">Services</a>
+                  <a href="#services" className="link">Services</a>
                 </li>
                 <li className="list-elem">
-                  <a href="#" className="link">Blog</a>
+                  <a href="#blog" className="link">Blog</a>
                 </li>
                 <li className="list-elem">
-                  <a href="#" className="link">Contact</a>
+                  <a href="#contact" className="link">Contact</a>
                 </li>
               </ul>
             </nav>
@@ -73,7 +73,7 @@ export default function App() {
             </div>
           </div>
         </section>
-        <section className="services services-section">
+        <section className="services services-section" id='services'>
           <div className="container">
             <div className="services-block section-block">
               <h2 className="title">Our Services</h2>

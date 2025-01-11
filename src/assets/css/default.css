@@ -2,6 +2,8 @@ html {
     font-family: 'Oswald';
     font-size: 12px;
     font-weight: 300;
+
+    scroll-behavior: smooth;
 }
 
 body {
